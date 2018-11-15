@@ -1,3 +1,13 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [DialingForm.cs](./CS/ToolTipControllerExample/DialingForm.cs) (VB: [DialingForm.vb](./VB/ToolTipControllerExample/DialingForm.vb))
+* [Form1.cs](./CS/ToolTipControllerExample/Form1.cs) (VB: [Form1.vb](./VB/ToolTipControllerExample/Form1.vb))
+* [Form2.cs](./CS/ToolTipControllerExample/Form2.cs) (VB: [Form2.vb](./VB/ToolTipControllerExample/Form2.vb))
+* [MyToolTipController.cs](./CS/ToolTipControllerExample/MyToolTipController.cs) (VB: [MyToolTipController.vb](./VB/ToolTipControllerExample/MyToolTipController.vb))
+* [Program.cs](./CS/ToolTipControllerExample/Program.cs) (VB: [Program.vb](./VB/ToolTipControllerExample/Program.vb))
+* [ToolTipControl.cs](./CS/ToolTipControllerExample/ToolTipControl.cs) (VB: [ToolTipControl.vb](./VB/ToolTipControllerExample/ToolTipControl.vb))
+<!-- default file list end -->
 # How to use a custom UserControl as a tooltip
 
 
