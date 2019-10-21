@@ -3,8 +3,6 @@
 
 **Starting with version 19.2**, you can show **flyout hints** that support any control as their content. Refer to the [ToolTip Types](https://docs.devexpress.com/WindowsForms/2872/Common-Features/Tooltip-Management/ToolTip-Types?v=19.2) help topic for more information in this regard.
 
-![dxImage.png](https://supportcenter.devexpress.com/attachment/file/a3b94ef5-c1db-4793-955b-5a176d0bf3d0)
-
 If your task is to manually show a form with any content, consider the use of [FlyoutPanel](https://documentation.devexpress.com/) that we support starting with **version 13.2**.
 
 **For earlier versions:**
