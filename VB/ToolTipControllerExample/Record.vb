@@ -217,22 +217,22 @@ Namespace ToolTipControllerExample
 		Public Shared Function GetData(ByVal count As Integer) As BindingList(Of Record)
 			Dim records As New BindingList(Of Record)()
 			For i As Integer = 0 To count - 1
-				records.Add(New Record() With {
-					.ParentID = If(i < 5, 1, 2),
-					.ID = i,
-					.Text = String.Format("Text {0}", i),
-					.Info = String.Format("Info {0} Line 1" & vbCrLf & " Line 2" & vbCrLf & " Line 3" & vbCrLf & " Line 4" & vbCrLf & " Line 5" & vbCrLf, i),
-					.Dt = If(i Mod 2 = 0, Date.Now.AddDays(i), Date.MinValue),
-					.State = i Mod 2 = 0,
-					.Image = If(i Mod 2 = 0, My.Resources.macbook, My.Resources.photo_camera),
-					.Value = (i * 0.00001D),
-					.Detail = New Detail() With {
-						.ID = i,
-						.Name = String.Format("Text {0}", i),
-						.State = i Mod 2 = 0
-					}
-				})
-			Next i
+                records.Add(New Record() With {
+                    .ParentID = If(i < 5, 1, 2),
+                    .ID = i,
+                    .Text = String.Format("Text {0}", i),
+                    .Info = String.Format("Info {0}", i),
+                    .Dt = If(i Mod 2 = 0, Date.Now.AddDays(i), Date.MinValue),
+                    .State = i Mod 2 = 0,
+                    .Image = If(i Mod 2 = 0, My.Resources.macbook, My.Resources.photo_camera),
+                    .Value = (i * 0.00001D),
+                    .Detail = New Detail() With {
+                        .ID = i,
+                        .Name = String.Format("Text {0}", i),
+                        .State = i Mod 2 = 0
+                    }
+                })
+            Next i
 			Return records
 		End Function
 	End Class
